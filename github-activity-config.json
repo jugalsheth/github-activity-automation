@@ -26,11 +26,6 @@
       "branch": "main"
     },
     {
-      "name": "Kiss and Cart",
-      "url": "https://github.com/jugalsheth/kiss-and-cart.git",
-      "branch": "main"
-    },
-    {
       "name": "Love Shop",
       "url": "https://github.com/jugalsheth/love-shop.git",
       "branch": "main"
@@ -38,21 +33,6 @@
     {
       "name": "SKU Master Ware",
       "url": "https://github.com/jugalsheth/sku-master-ware.git",
-      "branch": "main"
-    },
-    {
-      "name": "Puja Prasad Shop",
-      "url": "https://github.com/jugalsheth/puja-prasad-shop.git",
-      "branch": "main"
-    },
-    {
-      "name": "Gary Vee Network",
-      "url": "https://github.com/jugalsheth/gary-vee-network.git",
-      "branch": "main"
-    },
-    {
-      "name": "Taskflow",
-      "url": "https://github.com/jugalsheth/taskflow.git",
       "branch": "main"
     }
   ],
