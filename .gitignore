@@ -1,0 +1,21 @@
+# Logs
+*.log
+activity.log
+launchd.log
+launchd.error.log
+cron.log
+
+# Cloned repositories
+repos/
+
+# Node modules (if you add any later)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+

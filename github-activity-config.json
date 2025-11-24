@@ -1,0 +1,20 @@
+{
+  "repositories": [
+    {
+      "name": "GitHub Activity Automation",
+      "localPath": ".",
+      "branch": "main"
+    },
+    {
+      "name": "VideoAsk AI",
+      "localPath": "../my-app",
+      "branch": "main"
+    }
+  ],
+  "settings": {
+    "skipIfUncommitted": true,
+    "changeTypes": ["readme", "comment", "package", "docs", "config"],
+    "commitTime": "09:00"
+  }
+}
+
