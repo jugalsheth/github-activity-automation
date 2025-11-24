@@ -80,7 +80,12 @@ function ensureRepo(repoConfig, baseDir) {
       fs.mkdirSync(parentDir, { recursive: true });
     }
     try {
-      execSync(`git clone ${repoConfig.url} ${localPath}`, { stdio: 'inherit' });
+      // Properly escape paths with spaces by using JSON.stringify for shell quoting
+      const escapedPath = JSON.stringify(localPath);
+      execSync(`git clone ${repoConfig.url} ${escapedPath}`, { 
+        stdio: 'inherit',
+        shell: true
+      });
       return localPath;
     } catch (error) {
       console.error(`❌ Failed to clone ${repoName}: ${error.message}`);
@@ -429,7 +434,11 @@ function main() {
     // Make commit
     const branch = repo.branch || 'main';
     if (makeCommit(repoPath, change, branch)) {
-      console.log(`✅ Successfully committed to ${path.basename(repoPath)}`);
+      if (DRY_RUN) {
+        console.log(`✅ Would successfully commit to ${path.basename(repoPath)}`);
+      } else {
+        console.log(`✅ Successfully committed to ${path.basename(repoPath)}`);
+      }
       successCount++;
     } else {
       errorCount++;

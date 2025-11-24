@@ -9,6 +9,51 @@
       "name": "VideoAsk AI",
       "localPath": "../my-app",
       "branch": "main"
+    },
+    {
+      "name": "DeveloperFolio",
+      "url": "https://github.com/jugalsheth/developerFolio.git",
+      "branch": "main"
+    },
+    {
+      "name": "Real-Time Dashboard",
+      "url": "https://github.com/jugalsheth/real-time-dashboard.git",
+      "branch": "main"
+    },
+    {
+      "name": "Snowflake Blueprint Builder",
+      "url": "https://github.com/jugalsheth/snowflake-blueprint-builder.git",
+      "branch": "main"
+    },
+    {
+      "name": "Kiss and Cart",
+      "url": "https://github.com/jugalsheth/kiss-and-cart.git",
+      "branch": "main"
+    },
+    {
+      "name": "Love Shop",
+      "url": "https://github.com/jugalsheth/love-shop.git",
+      "branch": "main"
+    },
+    {
+      "name": "SKU Master Ware",
+      "url": "https://github.com/jugalsheth/sku-master-ware.git",
+      "branch": "main"
+    },
+    {
+      "name": "Puja Prasad Shop",
+      "url": "https://github.com/jugalsheth/puja-prasad-shop.git",
+      "branch": "main"
+    },
+    {
+      "name": "Gary Vee Network",
+      "url": "https://github.com/jugalsheth/gary-vee-network.git",
+      "branch": "main"
+    },
+    {
+      "name": "Taskflow",
+      "url": "https://github.com/jugalsheth/taskflow.git",
+      "branch": "main"
     }
   ],
   "settings": {
